@@ -20,9 +20,9 @@
   
 <body onload = "make_header()">
 
+<div>
 
 
-<br><br>
 
 <div class="container" id = "optim_grid">
   <div class="row">
@@ -80,19 +80,10 @@
 </div>
 
 
-
-
-
-
-
-     
-
-
 <div class="slidecontainer">
   <input type="range" step = "1" min="0" max="31" value="1" class="slider" id="myRange">
   <p>Value: <span id="demo"></span></p>
 </div>
-
 
 <script>
 var slider = document.getElementById("myRange");
@@ -107,10 +98,6 @@ slider.oninput = function() {
 
 remove_table()
 </script>
-
-
-
-
 
 <div id="vis"></div>
 
@@ -194,37 +181,11 @@ function parse_schedule(schedule,instance,sl_val){
                              }
         if(day == day_num){gridload_array.push(gridload_row)}
       
-         
-          
-        
-
-      
-      
     }}
     
-    
-
-         
-
-
-    
-  
-
-        
-
-  arr = gridload_array
-          
-
-  
-  
-     
-  
-  return(arr)}
+    arr = gridload_array
+    return(arr)}
       
-      
-
-
-
 }
 
 
@@ -239,7 +200,7 @@ function parse_schedule(schedule,instance,sl_val){
 
 
 
-
+</div>
 
 
 
